@@ -1,0 +1,22 @@
+- [ ] Go to the **Target** and then **Site map**, and right clicking on the target domain, select **Add to scope**![[Pasted image 20250920170922.png]]
+- [ ] Follow the same process as before, but then select **Scan** instead of **Add to scope**, and following this, apply the following rules:
+	- Select the **Crawl and audit** scan type.
+	- Select **Lightweight** as the Scan Configuration
+	![[Pasted image 20250920171026.png]]
+	![[Pasted image 20250920172355.png]]
+- [ ] Identify and list anything that looks suspicious. To note the following things that could potentially be useable in this stage are:
+	- DOM-XSS  
+	- XSS Cross Site Scripting  
+	- Web Cache Poison  
+	- Host Headers  
+	- HTTP Request Smuggling  
+	- Brute force  
+	- Authentication
+	- CSRF - Account Takeover
+	- Password Reset  
+	- SQLi - SQL Injection  
+	- JWT - JSON Web Tokens  
+	- Prototype pollution  
+	- Access Control  
+	- GraphQL API Endpoints  
+	- CORS - Cross-origin resource sharing  
